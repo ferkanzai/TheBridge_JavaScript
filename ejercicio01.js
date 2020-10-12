@@ -10,7 +10,7 @@
 var temperature = 26; // Entre 1 y 50
 var sky = "soleado"; // "soleado"
 // var outfit;
-var message;
+var message = "";
 
 if ( temperature > 25 ){
   message += "Ponte una camiseta";
@@ -23,3 +23,5 @@ if ( sky === "lloviendo" ){
 } else if ( sky === "soleado" ){
   message += " y un sombrero";
 }
+
+console.log(message);
